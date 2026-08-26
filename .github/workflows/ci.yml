@@ -22,8 +22,8 @@ jobs:
         run: npm install
         working-directory: ./app
 
-      - name: Run application
-        run: npm start
+      - name: Run tests
+        run: npm test
         working-directory: ./app
 
       - name: Build Docker image
